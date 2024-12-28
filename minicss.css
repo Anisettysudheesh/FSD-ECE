@@ -1,0 +1,33 @@
+Navbar{
+    display:flex;
+    flex-direction: row;
+ 
+    justify-content: space-between;
+    background-color: burlywood;
+    font-size: 30px;
+    padding:8px
+    
+}
+.nav-right{
+    display:flex;
+    list-style-type: none;
+    gap:100px;
+
+}
+.nav-left{
+    list-style-type: none;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top:30px;
+}
+.product1{
+border:2px solid black;
+padding:10px;
+}
